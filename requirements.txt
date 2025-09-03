@@ -1,0 +1,23 @@
+Flask==2.0.3
+itsdangerous==2.1.1
+Jinja2==3.0.3
+MarkupSafe==2.1.0
+Werkzeug==2.0.3
+
+# Core scientific stack (compatible with Python 3.10 on Windows)
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+
+# Scikit-learn stack matching pickled models
+scikit-learn==1.0.2
+joblib==1.1.0
+threadpoolctl==3.1.0
+
+# Date utilities (used by pandas)
+python-dateutil==2.8.2
+pytz==2021.3
+six==1.16.0
+
+# Production WSGI server
+waitress==2.1.0
